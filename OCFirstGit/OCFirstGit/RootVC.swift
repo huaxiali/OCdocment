@@ -17,6 +17,7 @@ class RootVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        self.title = "RootVC"
         let disBtn = UIButton(frame: CGRect(x: 100, y: 100, width: 40, height: 40))
         //(frame: CGRect(origin: CGPoint(x: ScreenWidth / 2, y: ScreenHeight / 2), size: CGSize(width: 40, height: 40)))
         
@@ -27,7 +28,7 @@ class RootVC: UIViewController {
     
     @objc func touchDone() {
         self.navigationController?.popViewController(animated: true)
-        self.block!("oo")
+        self.block!("Come from \(String(describing: self.title))")
     }
     
     override func didReceiveMemoryWarning() {

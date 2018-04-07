@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A4E184E20785CD7004B151E /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4E184D20785CD7004B151E /* RootVC.swift */; };
 		2A5743C2207233A200FD4513 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5743C1207233A200FD4513 /* AppDelegate.swift */; };
 		2A5743C4207233A200FD4513 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5743C3207233A200FD4513 /* ViewController.swift */; };
 		2A5743C7207233A200FD4513 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5743C5207233A200FD4513 /* Main.storyboard */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A4E184D20785CD7004B151E /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
 		2A5743BE207233A200FD4513 /* OCFirstGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCFirstGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5743C1207233A200FD4513 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A5743C3207233A200FD4513 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			children = (
 				2A5743C1207233A200FD4513 /* AppDelegate.swift */,
 				2A5743C3207233A200FD4513 /* ViewController.swift */,
+				2A4E184D20785CD7004B151E /* RootVC.swift */,
 				2A5743C5207233A200FD4513 /* Main.storyboard */,
 				2A5743CB207233A300FD4513 /* Assets.xcassets */,
 				2A5743CD207233A300FD4513 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A4E184E20785CD7004B151E /* RootVC.swift in Sources */,
 				2A5743C4207233A200FD4513 /* ViewController.swift in Sources */,
 				2A5743C2207233A200FD4513 /* AppDelegate.swift in Sources */,
 				2A5743CA207233A200FD4513 /* OCFirstGit.xcdatamodeld in Sources */,

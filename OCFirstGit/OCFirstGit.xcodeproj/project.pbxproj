@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A1C583C208DC0CF005F9935 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A1C583E208DC0CF005F9935 /* InfoPlist.strings */; };
 		2A4E184E20785CD7004B151E /* RootVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A4E184D20785CD7004B151E /* RootVC.swift */; };
 		2A5743C2207233A200FD4513 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5743C1207233A200FD4513 /* AppDelegate.swift */; };
 		2A5743C4207233A200FD4513 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5743C3207233A200FD4513 /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 		2A5743CF207233A300FD4513 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A5743CD207233A300FD4513 /* LaunchScreen.storyboard */; };
 		2A5743DA207233A400FD4513 /* OCFirstGitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5743D9207233A400FD4513 /* OCFirstGitTests.swift */; };
 		2A5743E5207233A400FD4513 /* OCFirstGitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A5743E4207233A400FD4513 /* OCFirstGitUITests.swift */; };
+		2A7D6B622082D2C70021E195 /* NSString+First.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D6B612082D2C70021E195 /* NSString+First.m */; };
+		2A7D6B652082D6CB0021E195 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D6B642082D6CB0021E195 /* Person.m */; };
+		2AF00A3D207C3B990048B347 /* 林志炫-你的样子.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2AF00A3C207C3B990048B347 /* 林志炫-你的样子.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2A1C5836208DC098005F9935 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		2A1C5837208DC098005F9935 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		2A1C5838208DC09E005F9935 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		2A1C5839208DC09E005F9935 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		2A1C583D208DC0CF005F9935 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		2A1C583F208DC0D6005F9935 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2A4E184D20785CD7004B151E /* RootVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootVC.swift; sourceTree = "<group>"; };
 		2A5743BE207233A200FD4513 /* OCFirstGit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCFirstGit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5743C1207233A200FD4513 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +61,12 @@
 		2A5743E0207233A400FD4513 /* OCFirstGitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OCFirstGitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A5743E4207233A400FD4513 /* OCFirstGitUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OCFirstGitUITests.swift; sourceTree = "<group>"; };
 		2A5743E6207233A400FD4513 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A7D6B602082D2C70021E195 /* NSString+First.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+First.h"; sourceTree = "<group>"; };
+		2A7D6B612082D2C70021E195 /* NSString+First.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+First.m"; sourceTree = "<group>"; };
+		2A7D6B632082D6CB0021E195 /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		2A7D6B642082D6CB0021E195 /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		2AD976432080706B00F047B0 /* Header-OCSwift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Header-OCSwift.h"; sourceTree = "<group>"; };
+		2AF00A3C207C3B990048B347 /* 林志炫-你的样子.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "林志炫-你的样子.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +94,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A1C5823208DBA42005F9935 /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				2A7D6B602082D2C70021E195 /* NSString+First.h */,
+				2A7D6B612082D2C70021E195 /* NSString+First.m */,
+				2A7D6B632082D6CB0021E195 /* Person.h */,
+				2A7D6B642082D6CB0021E195 /* Person.m */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
 		2A5743B5207233A200FD4513 = {
 			isa = PBXGroup;
 			children = (
@@ -102,10 +129,14 @@
 			isa = PBXGroup;
 			children = (
 				2A5743C1207233A200FD4513 /* AppDelegate.swift */,
+				2A1C5823208DBA42005F9935 /* OC */,
+				2AD976432080706B00F047B0 /* Header-OCSwift.h */,
 				2A5743C3207233A200FD4513 /* ViewController.swift */,
 				2A4E184D20785CD7004B151E /* RootVC.swift */,
+				2A1C583E208DC0CF005F9935 /* InfoPlist.strings */,
 				2A5743C5207233A200FD4513 /* Main.storyboard */,
 				2A5743CB207233A300FD4513 /* Assets.xcassets */,
+				2AF00A3C207C3B990048B347 /* 林志炫-你的样子.mp3 */,
 				2A5743CD207233A300FD4513 /* LaunchScreen.storyboard */,
 				2A5743D0207233A300FD4513 /* Info.plist */,
 				2A5743C8207233A200FD4513 /* OCFirstGit.xcdatamodeld */,
@@ -215,8 +246,8 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = 2A5743B5207233A200FD4513;
 			productRefGroup = 2A5743BF207233A200FD4513 /* Products */;
@@ -238,6 +269,8 @@
 				2A5743CF207233A300FD4513 /* LaunchScreen.storyboard in Resources */,
 				2A5743CC207233A300FD4513 /* Assets.xcassets in Resources */,
 				2A5743C7207233A200FD4513 /* Main.storyboard in Resources */,
+				2AF00A3D207C3B990048B347 /* 林志炫-你的样子.mp3 in Resources */,
+				2A1C583C208DC0CF005F9935 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,8 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A7D6B652082D6CB0021E195 /* Person.m in Sources */,
 				2A4E184E20785CD7004B151E /* RootVC.swift in Sources */,
 				2A5743C4207233A200FD4513 /* ViewController.swift in Sources */,
+				2A7D6B622082D2C70021E195 /* NSString+First.m in Sources */,
 				2A5743C2207233A200FD4513 /* AppDelegate.swift in Sources */,
 				2A5743CA207233A200FD4513 /* OCFirstGit.xcdatamodeld in Sources */,
 			);
@@ -301,10 +336,21 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		2A1C583E208DC0CF005F9935 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A1C583D208DC0CF005F9935 /* zh-Hans */,
+				2A1C583F208DC0D6005F9935 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		2A5743C5207233A200FD4513 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2A5743C6207233A200FD4513 /* Base */,
+				2A1C5836208DC098005F9935 /* zh-Hans */,
+				2A1C5838208DC09E005F9935 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -313,6 +359,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				2A5743CE207233A300FD4513 /* Base */,
+				2A1C5837208DC098005F9935 /* zh-Hans */,
+				2A1C5839208DC09E005F9935 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -324,6 +372,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -384,6 +433,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -440,13 +490,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5B9C3UE37Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCFirstGit",
+				);
 				INFOPLIST_FILE = OCFirstGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCFirstGit",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = l.OCFirstGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yikuangxiaosheng/Desktop/OCdocment/OCFirstGit/OCFirstGit/Header-OCSwift.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -458,13 +517,22 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5B9C3UE37Q;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCFirstGit",
+				);
 				INFOPLIST_FILE = OCFirstGit/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OCFirstGit",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = l.OCFirstGit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/yikuangxiaosheng/Desktop/OCdocment/OCFirstGit/OCFirstGit/Header-OCSwift.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
